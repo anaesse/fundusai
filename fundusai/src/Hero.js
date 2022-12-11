@@ -8,9 +8,9 @@ function Hero() {
   return (
     <section className='Hero'>
 
-        <div className='px-20 py-10 w-full flex '>
-          <div className='basis-[56%]'>
-            <h1 className='text-[#0447b9] text-[65px] font-bold leading-[90px]'>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
+        <div className='px-20 py-10 w-full md:flex '>
+          <div className='w-full md:basis-[56%]'>
+            <h1 className='text-[#0447b9] text-[45px] md:text-[65px] font-bold leading-[90px]'>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
             <p className='text-[25px] font-light py-5 w-[90%]'>FundusAI offers an artificial intelligence diagnostic device for Diabetic Retinopathy, allowing doctors to diagnose more patients in less time to prevent blindness in diabetic patients.</p>
             <div className='py-5'>
               <button className='bg-[#0447b9] text-[#ffffff] px-8 py-3 rounded-[12px]'>Demo</button>
@@ -40,7 +40,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className='basis-[40%] '>
+          <div className='md:basis-[40%] '>
             <img src={hero} alt='logo' className='w-full pt-14'/>
           </div>
             
