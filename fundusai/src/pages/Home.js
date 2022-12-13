@@ -3,14 +3,15 @@ import hero1 from '../images/hero1.png'
 import hero2 from '../images/hero2.png'
 import hero3 from '../images/hero3.png'
 import hero4 from '../images/hero4.png'
+import Hero from './hero'
 
 function Home() {
   return (
-    <section>
+    <section >
 
-        <div className='md:px-20 px-10 md:py-40 py-[100px] w-full md:flex '>
-          <div className='w-full md:basis-2/3'>
-            <h1 className='text-[#0447b9] font-[poppins] font-bold text-[40px] md:text-[42px] lg:text-[60px] '>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
+        <div className='md:px-20 px-10 md:py-20 py-10 w-full md:flex '>
+          <div className='w-full md:basis-8/12'>
+            <h1 className='text-[#0447b9] font-[poppins] font-bold text-[40px] md:text-[40px] lg:text-[55px] '>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
             <p className=' font-[poppins] font-light w-full md:w-[90%]  text-[20px]  lg:text-[30px] pt-5'>FundusAI offers an artificial intelligence diagnostic device for Diabetic Retinopathy, allowing doctors to diagnose more patients in less time to prevent blindness in diabetic patients.</p>
             <div className='py-12 flex flex-col gap-2 md:flex-row'>
               {/* <div> */}
@@ -39,12 +40,15 @@ function Home() {
                   </div>
             </div>
           </div>
-          <div className='w-full md:basis-1/3  '>
-            <img src={hero} alt='logo' className='w-full pt-4 '/>
+          <div className='w-full md:basis-2/5  '>
+            <img src={hero} alt='logo' className='w-full pt-10 '/>
           </div>
             
         </div>
+
+        <Hero />
     </section>
+    
   );
 }
 
