@@ -11,15 +11,13 @@ function Home() {
 
         <div className='md:px-20 px-10 md:py-20 py-10 w-full md:flex '>
           <div className='w-full md:basis-8/12'>
-            <h1 className='text-[#0447b9] font-[poppins] font-bold text-[40px] md:text-[40px] lg:text-[55px] '>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
+            <h1 className='text-[#0447b9] font-[poppins] font-bold text-[22px] md:text-[30px] lg:text-[45px] '>Preventing <span className='text-[#ff9839]'>Blindness</span> in Diabetic Patients</h1>
             <p className=' font-[poppins] font-light w-full md:w-[90%]  text-[20px]  lg:text-[30px] pt-5'>FundusAI offers an artificial intelligence diagnostic device for Diabetic Retinopathy, allowing doctors to diagnose more patients in less time to prevent blindness in diabetic patients.</p>
             <div className='py-12 flex flex-col gap-2 md:flex-row'>
-              {/* <div> */}
               <button className='bg-[#0447b9] text-[#ffffff] px-8 py-3 rounded-[12px]'>Demo</button>
-              {/* </div> */}
               <button  className='bg-[#0447b9] text-[#ffffff] px-8 py-3 rounded-[12px]'>Learn more</button>
             </div>
-            <div className='md:grid gap-3 grid-cols-2 grid-rows-2'>
+            <div className=' lg:grid gap-3 grid-cols-2 grid-rows-2'>
                 <div className='flex items-center py-2 gap-3'>
                   <img src={hero1} alt='hero-img' className='w-[40px]'/>
                   <span className='text-[15px] font-[poppins] font-semi-bold'>State of the art Artificial Intelligence solution for accurate diagnosis.</span>

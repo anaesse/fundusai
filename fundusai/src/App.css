@@ -1,3 +1,5 @@
+
+
 .link{
   color: #404040;
 }
@@ -5,4 +7,21 @@
   font-weight:700 ;
   border-bottom: 2px solid #125fbf;
 
+}
+
+.rings{
+  background-image: url("./images/rings.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  background-position: right;
+}
+@media (max-width: 1023px){
+  .rings{
+    background-image: none;
+    
+  }
+  .circles{
+    display: none;
+  }
 }
