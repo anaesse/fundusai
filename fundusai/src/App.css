@@ -4,6 +4,7 @@
 .active {
   font-weight: 700;
   border-bottom: 2px solid #125fbf;
+  
 }
 
 .rings {
@@ -12,6 +13,12 @@
   background-size: contain;
   background-attachment: scroll;
   background-position: right;
+}
+.review{
+  background-image: url("./images/review.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 1023px) {
   .rings {

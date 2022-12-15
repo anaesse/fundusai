@@ -1,5 +1,6 @@
 import ServiceData from "../components/ServiceData";
 import worksData from "../components/worksData";
+import Review from "./Review";
 
 // import HowItWorks from '../images/how-it-works.jpg'
 const Services = () => {
@@ -8,7 +9,8 @@ const Services = () => {
   });
 
   return (
-    <section className="md:px-20 px-10 md:py-12 py-10 ">
+    <section >
+      <div className="md:px-20 px-10 py-8">
       <h1
         className="font-[poppins] text-[#0447b9] text-[40px] font-light text-center
           pb-14"
@@ -16,6 +18,8 @@ const Services = () => {
         How it Works
       </h1>
       {serviceCard}
+      </div>
+      <Review />
     </section>
   );
 };
