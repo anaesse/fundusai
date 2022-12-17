@@ -17,6 +17,34 @@
 input{
   outline: none;
 }
+/* .Checkbox{
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Checkbox__input{
+  display: none;
+}
+.Checkbox__box{
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid #404040;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.Checkbox__box::after{
+  content: '\2714';
+  color:#ffffff;
+}
+.Checkbox__input:checked + .Checkbox__box {
+  background: #ff9839 ;
+  border-color: #ff9839;
+
+} */
 /* .Radio{
   display: inline-flex;
   align-items: center;
