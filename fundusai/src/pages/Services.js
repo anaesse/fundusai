@@ -9,15 +9,15 @@ const Services = () => {
   });
 
   return (
-    <section >
+    <section>
       <div className="md:px-20 px-10 py-8">
-      <h1
-        className="font-[poppins] text-[#0447b9] text-[40px] font-light text-center
+        <h1
+          className="font-[poppins] text-[#0447b9] text-[40px] font-light text-center
           pb-14"
-      >
-        How it Works
-      </h1>
-      {serviceCard}
+        >
+          How it Works
+        </h1>
+        {serviceCard}
       </div>
       <Review />
     </section>

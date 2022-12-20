@@ -4,7 +4,6 @@
 .active {
   font-weight: 700;
   border-bottom: 2px solid #125fbf;
-  
 }
 
 .rings {
@@ -14,9 +13,14 @@
   background-attachment: scroll;
   background-position: right;
 }
-input{
+input {
   outline: none;
 }
+
+/* #orange:checked {
+  outline-color: #ff9839;
+  background-color: #ff9839;
+} */
 /* .Checkbox{
   display: inline-flex;
   align-items: center;
@@ -70,8 +74,8 @@ input{
   border-radius: 50%;
   display: block;
   background: #FF9839; */
-  /* transform: scale(0); */
-  /* transition: transform 0.15s; */
+/* transform: scale(0); */
+/* transition: transform 0.15s; */
 /* }
 .Radio--input:checked + .Radio--radio::after {
   background: #125fbf;
@@ -79,7 +83,7 @@ input{
 /* .Radio--input:checked + .Radio--radio::after {
   transform: scale(1);
 } */
-.review{
+.review {
   background-image: url("./images/review.jpg");
   background-repeat: no-repeat;
   background-size: cover;
