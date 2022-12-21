@@ -23,7 +23,7 @@ const About = () => {
         </p>
         <div className="h-[230px] sm:w-[350px] sm:h-[200px]  lg:w-[500px] lg:h-[350px] bg-black flex justify-center items-center">
           <span className="w-[100px] h-[100px] bg-[#7a8994] rounded-full flex justify-center items-center">
-            <a href="/">
+            <a href="https://youtu.be/pMI5nYiGssc">
               <img src={play} alt="A play button" />
             </a>
           </span>

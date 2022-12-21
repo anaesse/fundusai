@@ -2,7 +2,6 @@ import Abdulmalik from "../images/abdulmalik.jpg";
 import Favour from "../images/favour.jpg";
 import Khalifa from "../images/khalifa.jpg";
 import Mololuwa from "../images/mololuwa.jpg";
-import Virtue from "../images/virtue.jpg";
 import Shaibu from "../images/shaibu.jpg";
 
 var AboutUsData = [
@@ -10,7 +9,7 @@ var AboutUsData = [
     id: 1,
     img: Abdulmalik,
     name: "ABDULMALIK ADEYEMO",
-    title: "CEO & Co-founder",
+    title: "CEO & Founder",
     descriptionOne:
       "Abdulmalik Adeyemo is a machine learning researcher focused on the application of cutting-edge Machine Learning and Artificial Intelligence techniques to concrete problems in healthcare.",
     descriptionTwo:
@@ -86,28 +85,9 @@ var AboutUsData = [
     instagramLink: "malikyemo@gmail.com",
     linkedInLink: "malikyemo@gmail.com",
   },
+
   {
     id: 5,
-    img: Virtue,
-    name: "VIRTUE UTUK",
-    title: "CEO & Co-founder",
-    descriptionOne:
-      "Virtue utuk is a computer science student who possess high interest in machine learning.",
-    descriptionTwo:
-      "A rigorous, task driven student with substantial experience in python, HTML and CSS.",
-    descriptionThree:
-      "  Adept at leveraging python programming to produce superior interactive solutions in day to day human activities. She possesses other skills which includes but not limited to WordPress and web applications.",
-    email: "malikyemo@gmail.com",
-    twitter: "malikyemo@gmail.com",
-    instagram: "malikyemo@gmail.com",
-    linkedIn: "malikyemo@gmail.com",
-    emailLink: "malikyemo@gmail.com",
-    twitterLink: "malikyemo@gmail.com",
-    instagramLink: "malikyemo@gmail.com",
-    linkedInLink: "malikyemo@gmail.com",
-  },
-  {
-    id: 6,
     img: Shaibu,
     name: "DR. SHAIBU JEMILA ITOSIME OD",
     title: "Optometrist | Domain Expert | Founder of JIVAS",

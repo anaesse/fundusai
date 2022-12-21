@@ -4,7 +4,7 @@ import "../App.css";
 const Hero = () => {
   return (
     <div className="bg-black rings relative">
-      <div className="md:px-20 px-10 md:py-20 py-10 lg:flex h-[100%] ">
+      <div className="md:p-20 p-10  lg:flex h-[100%] ">
         <div className="w-full lg:basis-2/3 z-50">
           <h1 className="font-[poppins] text-[25px] md:text-[40px]  text-[#044789] font-bold ">
             What is <br /> Diabetes Retinopathy (DR)
