@@ -25,8 +25,8 @@ const Contact = () => {
   };
   return (
     <section>
-      <div className="px-6 pt-6 pb-10 md:flex gap-10">
-        <div className="bg-[#044789] md:px-12 px-7 rounded-[14.44px]  md:max-w-[480px] h-[530px] relative">
+      <div className="px-6 pt-6 pb-10 lg:flex gap-10">
+        <div className="bg-[#044789] md:px-12 px-7 rounded-[14.44px]  lg:max-w-[480px] h-[580px] md:h-[535px] relative">
           <h3 className="text-white font-[poppins] font-semi-bold text-[30px] pt-8 pb-3 ">
             Stay connected with us
           </h3>
@@ -34,7 +34,7 @@ const Contact = () => {
             We love to hear from you!
           </p>
           <div className="py-16">
-            <div className="flex items-center py-3   gap-4">
+            <div className="flex items-center py-3  gap-4">
               <img src={call} alt="call-icon" className="w-[15px]" />
               <p className="text-white font-[poppins] text-[20px]">
                 +234 9045 6789 62
@@ -53,7 +53,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center text-white pt-6 pb-3  gap-4">
+          <div className="flex items-center text-white pt-4 pb-3  gap-4">
             <a href="/">
               <FiTwitter className="bg-black text-[18px] w-[30px] h-[30px] p-1 rounded-full" />
             </a>
@@ -135,8 +135,8 @@ const Contact = () => {
               <p className="text-[#0447b9] font-semi-bold font-[poppins] text-[18px] py-2">
                 Select Subject?
               </p>
-              <div className="flex items-center gap-4">
-                <label className="Radio flex items-center gap-2">
+              <div className="py-2 sm:py-0 sm:flex items-center gap-3">
+                <label className="Radio flex items-center gap-1">
                   <input
                     id="orange-radio"
                     type="radio"
@@ -147,7 +147,7 @@ const Contact = () => {
                   General Inquiry
                 </label>
 
-                <label className="Radio flex items-center gap-2">
+                <label className="Radio flex items-center gap-1">
                   <input
                     id="orange-radio"
                     type="radio"
@@ -158,7 +158,7 @@ const Contact = () => {
                   In-person appointment
                 </label>
 
-                <label className="Radio flex items-center gap-2">
+                <label className="Radio flex items-center gap-1">
                   <input
                     id="orange-radio"
                     type="radio"
