@@ -6,9 +6,11 @@ import React, { useState } from "react";
 const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
-    <div className="w-full ">
+    <div className="w-full z-20 ">
       <div className="md:flex items-center justify-between bg-white md:py-10 py-4 md:pl-20 md:pr-[150px] lg:pr-[200px] px-10">
+        <a href="/">
         <img src={logo} alt="logo" className="w-[165px]" />
+        </a>
         <div
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"

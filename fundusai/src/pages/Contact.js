@@ -26,29 +26,29 @@ const Contact = () => {
   return (
     <section>
       <div className="px-6 pt-6 pb-10 lg:flex gap-10">
-        <div className="bg-[#044789] md:px-12 px-7 rounded-[14.44px]  lg:max-w-[480px] h-[580px] md:h-[535px] relative">
-          <h3 className="text-white font-[poppins] font-semi-bold text-[30px] pt-8 pb-3 ">
+        <div className="bg-[#044789] md:px-12 px-7 rounded-[14.44px]  lg:max-w-[480px] h-[580px] md:h-[535px] md:relative">
+          <h3 className="text-white font-[poppins] font-semi-bold text-[18px] sm:text-[30px] pt-8 pb-3 ">
             Stay connected with us
           </h3>
-          <p className="text-white font-[poppins] text-[18px]">
+          <p className="text-white font-[poppins] text-[15px] sm:text-[18px]">
             We love to hear from you!
           </p>
           <div className="py-16">
             <div className="flex items-center py-3  gap-4">
               <img src={call} alt="call-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[20px]">
+              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
                 +234 9045 6789 62
               </p>
             </div>
             <div className="flex items-center py-4 gap-4">
               <img src={email} alt="email-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[20px]">
+              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
                 support@fundusai.com
               </p>
             </div>
             <div className="flex items-center py-3 gap-4">
               <img src={locate} alt="call-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[20px]">
+              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
                 132 Moshood Street Asokoro, FCT 02156 Nigeria
               </p>
             </div>
@@ -67,12 +67,12 @@ const Contact = () => {
           <img
             src={Ellipse}
             alt="a Circle"
-            className="absolute bottom-14 right-20 w-[120px] "
+            className="hidden md:block md:absolute bottom-14 right-20 w-[120px] "
           />
           <img
             src={Ellipse2}
             alt="a ballon shape"
-            className="absolute bottom-0 right-0 rounded-r-[10px]  w-[150px]"
+            className=" hidden md:block md:absolute bottom-0 right-0 rounded-r-[10px]  w-[150px]"
           />
         </div>
         <div>
