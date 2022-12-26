@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
     return (    
         <footer className="p-10 bg-black mt-40 sm:p-20 ">
-    <div className="md:flex gap-24">
+    <div className="lg:flex gap-24 lg:gap-32">
         <div className="mb-6 md:mb-2">
                 <div>
             <a href="/">
@@ -36,12 +36,12 @@ const Footer = () => {
         </div>
                 </div>
         </div>
-        <div className="grid grid-cols-2 gap-8 md:gap-16 md:grid-cols-3">
+        <div className="sm:grid sm:grid-cols-2 gap-8 md:gap-16 md:grid-cols-3">
             <div>
                 <h2 className="mb-6 text-sm font-semibold text-[#0447b9] ">Product</h2>
                 <ul className="text-white">
                     <li>
-                        <a href="/services" className="hover:underline">How It Works</a>
+                        <a href="/services" className="hover:underline text-[12px]">How It Works</a>
                     </li>
                     {/* <li>
                         <a href="/" className="hover:underline">Pricing</a>
@@ -61,10 +61,10 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold text-[#0447b9] ">Company</h2>
                 <ul className="text-white">
                     <li>
-                        <a href="/about" className="hover:underline">About</a>
+                        <a href="/about" className="hover:underline text-[12px]">About</a>
                     </li>
                     <li>
-                        <a href="/contact" className="hover:underline pt-2 ">Contact us</a>
+                        <a href="/contact" className="hover:underline pt-2 text-[12px] ">Contact us</a>
                     </li>
                     {/* <li>
                         <a href="/" className="hover:underline">Careers</a>
@@ -102,15 +102,15 @@ const Footer = () => {
                 <ul className="text-white">
                     <li className="flex items-center gap-1">
                         <IoMailOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline">hello@fundusai.com</a>
+                        <a href="/" className="hover:underline text-[12px]">hello@fundusai.com</a>
                     </li>
                     <li className="flex items-center pt-2 gap-1">
                         <IoCallOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline"> (234) 810-8273-624 <br/> (234) 810-0610-985</a>
+                        <a href="/" className="hover:underline text-[12px]"> (234) 810-8273-624 <br/> (234) 810-0610-985</a>
                     </li>
                     <li className="flex items-center pt-2  gap-1">
                         <IoLocationOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline"> suite 5 wilflox plaza, Wuye, Abuja</a>
+                        <a href="/" className="hover:underline text-[12px]"> suite 5 wilflox plaza, Wuye, Abuja</a>
                     </li>
                 </ul>
             </div>
@@ -118,12 +118,12 @@ const Footer = () => {
     </div>
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div className="md:flex md:items-center sm:justify-between">
-        <span className="sm:text-center text-[#6f6c90]">Copyright © 2022 <a href="/" class="hover:underline">Phieeyah™</a>.
+        <span className="sm:text-center text-[#6f6c90] text-[12px]">Copyright © 2022 <a href="/" class="hover:underline">Phieeyah™</a>.
         </span>
-        <div className="grid grid-cols-3 divide-x pt-4 md:pt-0">
-            <div className="text-[#6f6c90]">All Rights Reserved</div>
-            <div className="text-[#0447b9] px-3">Terms and Conditions</div>
-            <div className="text-[#0447b9] px-3">Privacy Policy</div>
+        <div className="grid md:grid-cols-3  md:divide-x pt-4 md:pt-0">
+            <div className="text-[#6f6c90] text-[12px]">All Rights Reserved</div>
+            <div className="text-[#0447b9] py-2 md:py-0 md:px-3 text-[12px]">Terms and Conditions</div>
+            <div className="text-[#0447b9] py-2 md:py-0 md:px-3 text-[12px]">Privacy Policy</div>
             </div>
         </div>
 </footer>

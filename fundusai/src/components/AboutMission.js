@@ -1,8 +1,8 @@
 const AboutMission = () => {
   return (
     <div className="lg:flex gap-4 items-center py-[150px]">
-      <div className="bg-[#0447B9] max-w-[100vh] min-h-[100vh] sm:w-[800px]   lg:h-[700px] px-8 py-8 md:py-14  mb-4">
-        <h1 className="font-[poppins] font-base text-[40px] lg:text-[50px] text-white text-center py-4">
+      <div className="bg-[#0447B9] max-w-[100vh] min-h-[100px] sm:w-[800px]   lg:h-[700px] px-8 py-8 md:py-14  mb-4">
+        <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] lg:text-[50px] text-white text-center py-4">
           Our Mission
         </h1>
         <p className="font-[poppins] font-base text-[12px] sm:text-[16px] lg:text-[20px] py-4 text-white">
@@ -26,8 +26,8 @@ const AboutMission = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-[#ff9839] max-w-[100vh] min-h-[100vh] sm:w-[800px] lg:h-[700px]  px-8 py-8 md:py-14 mb-4">
-        <h1 className="font-[poppins] font-base text-[40px] md:text-[50px] text-white text-center py-4">
+      <div className="bg-[#ff9839] max-w-[100vh] min-h-[100px] sm:w-[800px] lg:h-[700px]  px-8 py-8 md:py-14 mb-4">
+        <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] md:text-[50px] text-white text-center py-4">
           Our Vision
         </h1>
         <p className="font-[poppins] font-base text-[12px] sm:text-[16px] lg:text-[20px] py-4 text-white">

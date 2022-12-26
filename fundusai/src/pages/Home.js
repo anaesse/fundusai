@@ -14,7 +14,7 @@ function Home() {
             Preventing <span className="text-[#ff9839]">Blindness</span> in
             Diabetic Patients
           </h1>
-          <p className=" font-[poppins] font-light w-full md:w-[90%]  text-[20px]  lg:text-[30px] pt-5">
+          <p className=" font-[poppins] font-light w-full md:w-[90%] text-[16px] sm:text-[20px]  lg:text-[25px] pt-5">
             FundusAI offers an artificial intelligence diagnostic device for
             Diabetic Retinopathy, allowing doctors to diagnose more patients in
             less time to prevent blindness in diabetic patients.
