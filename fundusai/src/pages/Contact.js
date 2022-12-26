@@ -90,7 +90,6 @@ const Contact = () => {
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                     placeholder=" "
                   />
-                  {/* <input type="text" className="border-[#8d8d8d] pt-3 w-full border-t-0 border-x-0 border-b-1 outline-none" /> */}
                 </div>
                 <div className="pb-3 basis-2/4">
                   <label className="text-black font-base font-[poppins] text-[17px]">
@@ -125,12 +124,10 @@ const Contact = () => {
                   <br />
                   <input
                     type="tel" name="user_number"
-                    // pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                     id="floating_standard"
                     class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none "
                     placeholder=" "
                   />
-                  {/* <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" className="border-[#8d8d8d] pt-3  w-full border-t-0 border-x-0 border-b-1" /> */}
                 </div>
               </div>
             </div>
@@ -140,7 +137,6 @@ const Contact = () => {
               </p>
               <div className="flex items-center gap-4">
                 <label className="Radio flex items-center gap-2">
-                  {/* <div className="Radio--radio"></div> */}
                   <input
                     id="orange-radio"
                     type="radio"
@@ -172,22 +168,9 @@ const Contact = () => {
                   />
                   Sponsorship
                 </label>
-
-                {/* <label className="Radio flex items-center gap-2">
-                  <input
-                    id="orange-radio"
-                    type="radio"
-                    value=""
-                    name="subject"
-                    className="w-4 h-4 text-[#ff9839] bg-gray-100 border-gray-300 focus:ring-[#ff9839]"
-                  />
-                  General Inquiry
-                </label> */}
               </div>
             </div>
             <div className="pt-5 pb-3">
-              {/* <label className="text-[#8d8d8d] font-base font-[poppins] text-[17px]">Message</label><br /> */}
-              {/* <input type="textarea" placeholder="write your message..." className="border-b-[1.44px] border-[#8d8d8d] py-1" /> */}
               <textarea
                 className="
                   form-control
