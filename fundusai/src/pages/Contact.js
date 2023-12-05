@@ -37,19 +37,19 @@ const Contact = () => {
             <div className="flex items-center py-3  gap-4">
               <img src={call} alt="call-icon" className="w-[15px]" />
               <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
-                +234 9045 6789 62
+              +2348 10827 3624
               </p>
             </div>
             <div className="flex items-center py-4 gap-4">
               <img src={email} alt="email-icon" className="w-[15px]" />
               <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
-                support@fundusai.com
+              Info@fundusai.com
               </p>
             </div>
             <div className="flex items-center py-3 gap-4">
               <img src={locate} alt="call-icon" className="w-[15px]" />
               <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
-                132 Moshood Street Asokoro, FCT 02156 Nigeria
+              Suit 5, Wilfox Plaza, Wuye, Abuja, Nigeria.
               </p>
             </div>
           </div>
@@ -57,10 +57,10 @@ const Contact = () => {
             <a href="/">
               <FiTwitter className="bg-black text-[18px] w-[30px] h-[30px] p-1 rounded-full" />
             </a>
-            <a href="/">
+            <a href="https://x.com/FundusAI">
               <BsInstagram className="bg-white text-black text-[18px] w-[30px] h-[30px] p-1 rounded-full" />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/fundusai/">
               <TbBrandDiscord className="bg-black text-[18px] w-[30px] h-[30px] p-1 rounded-full" />
             </a>
           </div>

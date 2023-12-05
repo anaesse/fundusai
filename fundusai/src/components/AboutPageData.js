@@ -23,7 +23,7 @@ const AboutPageData = (props) => {
         <p className="max-w-[600px] text-[12px] font-light font-[poppins] py-3">
           {props.descriptionThree}
         </p>
-        <div className="md:flex items-center gap-2  text-[12px] pt-2">
+        {/* <div className="md:flex items-center gap-2  text-[12px] pt-2">
           <a href="/" className="flex items-center gap-1">
             <ion-icon name="mail" className="bg-black w-2 h-2 p-3"></ion-icon>
             <span>{props.email}</span>
@@ -41,7 +41,7 @@ const AboutPageData = (props) => {
             <ion-icon name="logo-linkedin"></ion-icon>
             <span>{props.linkedIn}</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
