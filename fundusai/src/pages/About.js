@@ -3,6 +3,7 @@ import AboutUsData from "../components/AboutUsData";
 import AboutMission from "../components/AboutMission";
 import play from "../images/play.svg";
 
+
 // import HowItWorks from '../images/how-it-works.jpg'
 const About = () => {
   const AboutCard = AboutUsData.map((data) => {
@@ -10,8 +11,9 @@ const About = () => {
   });
 
   return (
-    <section className="md:px-20 px-10 py-8">
-      <h1 className="font-[poppins] text-[#0447b9] text-[30px] md:text-[50] lg:text-[55px] font-semi-bold pb-3">
+    <section className="md:px-20 px-10 py-8 min-h-screen " id="about">
+      
+      <h1 className="font-[poppins] text-[#0447b9] text-[30px] md:text-[50] lg:text-[55px] text-center font-semi-bold pt-4 pb-8">
         {" "}
         Get to know Us
       </h1>
@@ -21,7 +23,7 @@ const About = () => {
           Diabetic Retinopathy, allowing doctors to diagnose more patients in
           less time in order to prevent blindness in diabetic patients.
         </p>
-        <div className="h-[230px] sm:w-[350px] sm:h-[200px]  lg:w-[500px] lg:h-[350px] bg-black flex justify-center items-center">
+        <div className="min-h-[150px] sm:w-[350px] sm:h-[200px]  lg:w-[500px] lg:h-[350px] bg-black flex justify-center items-center">
           <span className="w-[100px] h-[100px] bg-[#7a8994] rounded-full flex justify-center items-center">
             <a href="https://youtu.be/pMI5nYiGssc">
               <img src={play} alt="A play button" />
@@ -38,7 +40,6 @@ const About = () => {
           BEHIND THE TECHNOLOGY
         </p>
       </div>
-      {/* <AboutPageData /> */}
       {AboutCard}
     </section>
   );

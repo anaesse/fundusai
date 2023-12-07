@@ -1,11 +1,16 @@
-// import Abdulmalik from '../images/abdulmalik.jpg'
+import { motion } from "framer-motion";
 const AboutPageData = (props) => {
   return (
-    <div className="md:flex gap-4 pt-5">
+    <motion.div
+    initial ={{opacity:0, x:100}}
+    whileInView= {{opacity:1, y:0}}
+    transition={{ duration: 0.75, delay:0.4 }}
+
+     className="flex flex-col md:flex-row gap-6  py-10">
       <img
         src={props.img}
         alt="A person"
-        className="max-w-full md:max-w-[298.97px] max-h-[310px]"
+        className="w-full max-h-[400px] md:max-w-[298.97px] lg:max-h-[310px]"
       />
       <div>
         <h1 className="font-[poppins] font-semi-bold md:text-[24px]">
@@ -43,7 +48,7 @@ const AboutPageData = (props) => {
           </a>
         </div> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

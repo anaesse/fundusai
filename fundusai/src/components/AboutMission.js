@@ -1,7 +1,12 @@
+import { motion } from "framer-motion";
 const AboutMission = () => {
   return (
-    <div className="lg:flex gap-4 items-center py-[150px]">
-      <div className="bg-[#0447B9] max-w-[100vh] h-[550px] sm:w-[800px]   lg:h-[700px] px-8 py-8 md:py-14  mb-4">
+    <div className="flex flex-col lg:flex-row gap-4 items-center py-16 ">
+        <motion.div
+    initial ={{opacity:0, x:75}}
+    whileInView= {{opacity:1, x:0}}
+    transition={{ duration: 0.5, delay:0.25 }}
+       className="bg-[#0447B9] max-w-[100vh] h-[550px] sm:w-[800px]   lg:h-[600px] px-8 py-8 md:py-14 lg:py-12  mb-4">
         <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] lg:text-[50px] text-white text-center py-4">
           Our Mission
         </h1>
@@ -25,8 +30,11 @@ const AboutMission = () => {
             -Diagnose 1 Million+ diabetic patients in a year.
           </li>
         </ul>
-      </div>
-      <div className="bg-[#ff9839] max-w-[100vh] h-[520px] sm:w-[800px] lg:h-[700px]  px-8 py-8 md:py-14 mb-4">
+      </motion.div>
+      <motion.div
+    initial ={{opacity:0, x:90}}
+    whileInView= {{opacity:1, y:0}}
+    transition={{ duration: 0.7, delay:0.75 }}className="bg-[#ff9839] max-w-[100vh] h-[520px] sm:w-[800px] lg:h-[600px]  px-8 py-8 md:py-14 lg:py-12 mb-4">
         <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] md:text-[50px] text-white text-center py-4">
           Our Vision
         </h1>
@@ -42,7 +50,7 @@ const AboutMission = () => {
             - Be the leading provider of easy to use automated diagnostic system
           </li>
         </ul>
-      </div>
+      </motion.div>
     </div>
   );
 };

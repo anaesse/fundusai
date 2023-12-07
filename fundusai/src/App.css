@@ -1,11 +1,3 @@
-.link {
-  color: #404040;
-}
-.active {
-  font-weight: 700;
-  border-bottom: 2px solid #125fbf;
-}
-
 .rings {
   background-image: url("./images/rings.png");
   background-repeat: no-repeat;
@@ -25,13 +17,6 @@ input {
   height: 100vh; 
 }    
 
-
-/* .review {
-  background-image: url("./images/review.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 @media (max-width: 1023px) {
   .rings {
     background-image: none;

@@ -21,6 +21,7 @@ const ServiceData = (props) => {
             {props.description}{" "}
           </p>
           <ul>
+            
             <li className="flex items-center gap-2 py-1">
               <img src={check} alt="check" className="w-5" />
               <span>{props.listOne}</span>
@@ -28,7 +29,8 @@ const ServiceData = (props) => {
             <li className="flex items-center gap-2 py-1">
               <img src={check} alt="check" className="w-5" />
               <span>{props.listTwo}</span>
-            </li>
+            </li> 
+          
             <li className="flex items-center gap-2 py-1">
               <img src={check} alt="check" className="w-5" />
               <span>{props.listThree}</span>

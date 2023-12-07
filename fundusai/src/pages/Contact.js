@@ -24,16 +24,16 @@ const Contact = () => {
       e.target.reset()
   };
   return (
-    <section>
-      <div className="px-6 pt-6 pb-10 lg:flex gap-10">
-        <div className="bg-[#044789] md:px-12 px-7 rounded-[14.44px]  lg:max-w-[480px] h-[580px] md:h-[535px] md:relative">
+    <section id="contact" className="flex  justify-center min-h-screen ">
+      <div className="flex flex-col lg:flex-row gap-10 md:ml-8 ">
+        <div className="bg-[#044789] md:px-12 px-7 md:rounded-[14.44px]  lg:max-w-[480px] min-h-[400px] md:h-[535px] md:relative">
           <h3 className="text-white font-[poppins] font-semi-bold text-[18px] sm:text-[30px] pt-8 pb-3 ">
             Stay connected with us
           </h3>
           <p className="text-white font-[poppins] text-[15px] sm:text-[18px]">
             We love to hear from you!
           </p>
-          <div className="py-16">
+          <div className="py-8 md:py-16">
             <div className="flex items-center py-3  gap-4">
               <img src={call} alt="call-icon" className="w-[15px]" />
               <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">

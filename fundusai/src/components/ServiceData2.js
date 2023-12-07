@@ -30,12 +30,15 @@ const ServiceData = ({
           </p>
           <ul>
             <li className="flex items-center gap-2 py-1">
-              <img src={check} alt="check" className="w-5" />
+                <img src={check} alt="check" className="w-5" />
               <span>{listOne}</span>
+             
             </li>
+            
             <li className="flex items-center gap-2 py-1">
-              <img src={check} alt="check" className="w-5" />
-              <span>{listTwo}</span>
+              
+                <img src={check} alt="check" className="w-5" />
+              <span>{listTwo}</span> 
             </li>
             <li className="flex items-center gap-2 py-1">
               <img src={check} alt="check" className="w-5" />

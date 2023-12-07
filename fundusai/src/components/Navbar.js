@@ -1,48 +1,44 @@
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from "../images/logo.png";
-import { NavLink } from "react-router-dom";
-import "../App.css";
-import React, { useState } from "react";
+import './Navbar.css'
+import { Link } from "react-scroll";
 
 const Navbar = () => {
-  let [open, setOpen] = useState(false);
-  return (
-    <div className="w-full z-20 ">
-      <div className="md:flex items-center justify-between bg-white md:py-10 py-4 md:pl-20 md:pr-[150px] lg:pr-[200px] px-10">
-        <a href="/">
-        <img src={logo} alt="logo" className="w-[165px]" />
-        </a>
-        <div
-          onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
-        >
-          <ion-icon name={open ? "close" : "menu"}></ion-icon>
-        </div>
 
-        <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-20 " : "top-[-490px]"
-          }`}
-        >
-          <li className="md:ml-4 lg:ml-8 text-base font-xl font-medium md:my-0 my-7">
-            <NavLink
-              to="/"
-              className={({ isActive }) => (isActive ? "link active" : "link")}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li className="md:ml-4 lg:ml-8 text-base font-xl font-medium md:my-0 my-7">
-            <NavLink to="/services">How It Works</NavLink>
-          </li>
-          <li className="md:ml-4 lg:ml-8 text-base font-xl font-medium md:my-0 my-7">
-            <NavLink to="/about">About Us</NavLink>
-          </li>
-          <li className="md:ml-4 lg:ml-8 text-base font-xl font-medium md:my-0 my-7">
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-export default Navbar;
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
+    const closeMenu = () => setClick(false)
+
+    return (
+        <div className='header'>
+            <nav className='navbar'>
+                <Link to='/' spy={true} smooth={true} offset={50}duration={500} className='logo'>
+                    <img src={logo} alt='logo' />
+                </Link>
+                <div className='hamburger' onClick={handleClick}>
+                    {click ? (<FaTimes size={30} style={{ color: '#FF9839' }} />)
+                        : (<FaBars size={30} style={{ color: '#125fbf' }} />)}
+
+                </div>
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <li className='nav-item'>
+                        <Link to='home' spy={true} smooth={true} offset={-100}duration={1000} onClick={closeMenu}>Home</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='service' spy={true} smooth={true} offset={-100}duration={1000} onClick={closeMenu}>How It Works</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='about' spy={true} smooth={true} offset={-100}duration={1000} onClick={closeMenu}>About Us</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='contact' spy={true} smooth={true} offset={-150}duration={1000} onClick={closeMenu}>Contact</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    )
+}
+
+export default Navbar

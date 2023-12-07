@@ -7,8 +7,8 @@ import Hero from "./hero";
 
 function Home() {
   return (
-    <section>
-      <div className="md:px-20 px-10 md:py-20 py-10 w-full md:flex ">
+    <section id="home" className="min-h-screen" >
+      <div className="md:px-20 px-10 pt-36 pb-24  w-full md:flex ">
         <div className="w-full md:basis-8/12">
           <h1 className="text-[#0447b9] font-[poppins] font-bold text-[22px] md:text-[30px] lg:text-[45px] ">
             Preventing <span className="text-[#ff9839]">Blindness</span> in
@@ -61,7 +61,6 @@ function Home() {
           <img src={hero} alt="logo" className="w-full pt-10 " />
         </div>
       </div>
-
       <Hero />
     </section>
   );
