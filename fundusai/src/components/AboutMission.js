@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const AboutMission = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 items-center py-16 ">
+    <div className="flex flex-col lg:flex-row lg:gap-0 gap-4 items-center py-16 ">
         <motion.div
     initial ={{opacity:0, x:75}}
     whileInView= {{opacity:1, x:0}}

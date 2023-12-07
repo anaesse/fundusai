@@ -1,13 +1,17 @@
-import ImageOne from "../images/how-it-works.jpg";
-import ImageTwo from "../images/how-it-works2.jpg";
+
+
+// import Step1 from "../images/stepOne.JPG"
+// import Step2 from "../images/stepTwo.png"
 // import ImageThree from "../images/how-it-works3.jpg";
+import stepOne from "../images/step-one.JPG"
+import stepTwo from "../images/step-two.png"
 
 var worksData = [
   {
     id: 1,
     title: "Capture a Fundus Image",
     num: 1,
-    img: ImageOne,
+    img: stepOne,
     listOne: "If you are using an existing image, ensure it is of a good quality.",
     listTwo: "",
     listThree: "",
@@ -18,7 +22,7 @@ var worksData = [
     id: 2,
     title: "Upload the Image to the FundusAI Software",
     num: 2,
-    img: ImageTwo,
+    img: stepTwo,
     listOne: "Our system will check the quality of the uploaded image.",
     listTwo: "If the image passes the quality test, then a diagnosis is carried out.",
     listThree: "The system will request for a new image if the uploaded one fails the quality test.",
