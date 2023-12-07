@@ -36,21 +36,21 @@ const Contact = () => {
           <div className="py-8 md:py-16">
             <div className="flex items-center py-3  gap-4">
               <img src={call} alt="call-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
-              +2348 10827 3624
-              </p>
+              <a href="tel:+2348108273624" className="text-white font-[poppins] text-[16px] sm:text-[20px]">
+              +234 (810) 827-3624
+              </a>
             </div>
             <div className="flex items-center py-4 gap-4">
               <img src={email} alt="email-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
+              <a href="mailto:Info@fundusai.com" className="text-white font-[poppins] text-[16px] sm:text-[20px]">
               Info@fundusai.com
-              </p>
+              </a>
             </div>
             <div className="flex items-center py-3 gap-4">
               <img src={locate} alt="call-icon" className="w-[15px]" />
-              <p className="text-white font-[poppins] text-[16px] sm:text-[20px]">
+              <a href="https://maps.app.goo.gl/d7PftCbkMUtrZLHQ7" className="text-white font-[poppins] text-[16px] sm:text-[20px]">
               Suit 5, Wilfox Plaza, Wuye, Abuja, Nigeria.
-              </p>
+              </a>
             </div>
           </div>
           <div className="flex items-center text-white pt-4 pb-3  gap-4">

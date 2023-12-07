@@ -102,15 +102,15 @@ const Footer = () => {
                 <ul className="text-white">
                     <li className="flex items-center gap-1">
                         <IoMailOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline text-[12px]">hello@fundusai.com</a>
+                        <a href="mailto:Info@fundusai.com" className="hover:underline text-[12px]">Info@fundusai.com</a>
                     </li>
                     <li className="flex items-center pt-2 gap-1">
                         <IoCallOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline text-[12px]"> (234) 810-8273-624 <br/> (234) 810-0610-985</a>
+                        <a href="tel:+2348108273624" className="hover:underline text-[12px]"> +234 (810) 827-3624 </a>
                     </li>
                     <li className="flex items-center pt-2  gap-1">
                         <IoLocationOutline className="text-[#0447b9]" /> 
-                        <a href="/" className="hover:underline text-[12px]"> suite 5 wilflox plaza, Wuye, Abuja</a>
+                        <a href="https://maps.app.goo.gl/d7PftCbkMUtrZLHQ7" className="hover:underline text-[12px]"> suite 5 wilflox plaza, Wuye, Abuja</a>
                     </li>
                 </ul>
             </div>

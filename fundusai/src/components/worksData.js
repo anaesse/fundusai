@@ -1,8 +1,3 @@
-
-
-// import Step1 from "../images/stepOne.JPG"
-// import Step2 from "../images/stepTwo.png"
-// import ImageThree from "../images/how-it-works3.jpg";
 import stepOne from "../images/step-one.JPG"
 import stepTwo from "../images/step-two.png"
 
@@ -12,9 +7,7 @@ var worksData = [
     title: "Capture a Fundus Image",
     num: 1,
     img: stepOne,
-    listOne: "If you are using an existing image, ensure it is of a good quality.",
-    listTwo: "",
-    listThree: "",
+    list: ["If you are using an existing image, ensure it is of a good quality."],
     description:
       "Take a picture of the fundus using our all in one device or you can use an existing fundus image",
   },
@@ -23,9 +16,7 @@ var worksData = [
     title: "Upload the Image to the FundusAI Software",
     num: 2,
     img: stepTwo,
-    listOne: "Our system will check the quality of the uploaded image.",
-    listTwo: "If the image passes the quality test, then a diagnosis is carried out.",
-    listThree: "The system will request for a new image if the uploaded one fails the quality test.",
+    list: ["Our system will check the quality of the uploaded image.", "If the image passes the quality test, then a diagnosis is carried out.", "The system will request for a new image if the uploaded one fails the quality test.", ],
     description:
       "Upload the fundus image onto our AI-Powered diagnostic software and get your diagnosis result in less than 3 seconds.",
   },

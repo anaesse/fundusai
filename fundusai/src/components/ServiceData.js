@@ -21,20 +21,14 @@ const ServiceData = (props) => {
             {props.description}{" "}
           </p>
           <ul>
+            {
+              props.list.map(item => (<li className="flex items-center gap-2 py-1">
+              <img src={check} alt="check" className="w-5" />
+              <span>{item}</span>
+            </li>))
             
-            <li className="flex items-center gap-2 py-1">
-              <img src={check} alt="check" className="w-5" />
-              <span>{props.listOne}</span>
-            </li>
-            <li className="flex items-center gap-2 py-1">
-              <img src={check} alt="check" className="w-5" />
-              <span>{props.listTwo}</span>
-            </li> 
-          
-            <li className="flex items-center gap-2 py-1">
-              <img src={check} alt="check" className="w-5" />
-              <span>{props.listThree}</span>
-            </li>
+            }
+         
           </ul>
         </div>
       </div>
