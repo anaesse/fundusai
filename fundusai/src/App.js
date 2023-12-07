@@ -3,7 +3,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import { motion } from "framer-motion";
 
 
