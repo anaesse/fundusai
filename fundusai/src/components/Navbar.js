@@ -33,6 +33,9 @@ const Navbar = () => {
                         <Link to='about' spy={true} smooth={true} offset={-100}duration={1000} onClick={closeMenu}>About Us</Link>
                     </li>
                     <li className='nav-item'>
+                        <Link to='volunteer' spy={true} smooth={true} offset={-100}duration={1000} onClick={closeMenu}>Join us</Link>
+                    </li>
+                    <li className='nav-item'>
                         <Link to='contact' spy={true} smooth={true} offset={-150}duration={1000} onClick={closeMenu}>Contact</Link>
                     </li>
                 </ul>

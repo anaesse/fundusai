@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .rings {
   background-image: url("./images/rings.png");
   background-repeat: no-repeat;
@@ -15,6 +18,8 @@ input {
   background-attachment: scroll;
   background-position: center;
   height: 100vh; 
+  width: 100%;
+
 }    
 
 @media (max-width: 1023px) {

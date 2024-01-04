@@ -1,9 +1,12 @@
 import quote from "../images/quote.svg";
 import "../App.css";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="bg-black rings relative">
+    <motion.div
+    
+     className="bg-black rings relative">
       <div className="md:p-20 p-10  lg:flex h-[100%] ">
         <div className="w-full lg:basis-2/3 z-50">
           <h1 className="font-[poppins] text-[25px] md:text-[40px]  text-[#044789] font-bold ">
@@ -32,7 +35,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

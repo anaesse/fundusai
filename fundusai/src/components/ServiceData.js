@@ -1,9 +1,14 @@
 import React from "react";
 import check from "../images/check-circle.png";
+import { motion } from "framer-motion";
 
 const ServiceData = (props) => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row gap-10 mb-10">
+    <motion.div
+      initial ={{opacity:0, x:70}}
+      whileInView= {{opacity:1, x:0}}
+      transition={{ duration: 1.2, }}
+     className="flex flex-col-reverse lg:flex-row gap-10 mb-10">
       <img src={props.img} alt="a bulb" className=" max-w-fit md:w-[400px]" />
       <div className=" flex gap-4">
         <div className="relative pt-2">
@@ -32,7 +37,7 @@ const ServiceData = (props) => {
           </ul>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

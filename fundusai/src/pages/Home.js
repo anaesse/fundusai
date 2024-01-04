@@ -4,11 +4,18 @@ import hero2 from "../images/hero2.png";
 import hero3 from "../images/hero3.png";
 import hero4 from "../images/hero4.png";
 import Hero from "./hero";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <section id="home" className="min-h-screen" >
-      <div className="md:px-20 px-10 pt-36 pb-24  w-full md:flex ">
+      <motion.div
+      // initial ={{opacity:0, y:-100}}
+      // whileInView= {{opacity:1, y:0}}
+      // transition={{ duration: 1.2 }} 
+      className="md:px-20 px-10 pt-36 pb-24  w-full md:flex "
+      >
+    
         <div className="w-full md:basis-8/12">
           <h1 className="text-[#0447b9] font-[poppins] font-bold text-[22px] md:text-[30px] lg:text-[45px] ">
             Preventing <span className="text-[#ff9839]">Blindness</span> in
@@ -60,7 +67,7 @@ function Home() {
         <div className="w-full md:basis-2/5  ">
           <img src={hero} alt="logo" className="w-full pt-10 " />
         </div>
-      </div>
+      </motion.div>
       <Hero />
     </section>
   );

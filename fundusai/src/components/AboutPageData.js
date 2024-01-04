@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 const AboutPageData = (props) => {
   return (
     <motion.div
-    initial ={{opacity:0, x:100}}
-    whileInView= {{opacity:1, y:0}}
-    transition={{ duration: 0.75, delay:0.4 }}
+    initial ={{opacity:0, x:-50}}
+    whileInView= {{opacity:1, x:0}}
+    transition={{ duration: 1.5, delay:0.4 }}
 
      className="flex flex-col md:flex-row gap-6  py-10">
       <img

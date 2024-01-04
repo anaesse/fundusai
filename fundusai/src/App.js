@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { motion } from "framer-motion";
+import Volunteer from "./pages/Volunteer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Home />
       <Services />
       <About />
+      <Volunteer />
       <Contact />
       <Footer />
     </motion.div>
