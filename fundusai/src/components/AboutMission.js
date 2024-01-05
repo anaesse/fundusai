@@ -3,8 +3,8 @@ const AboutMission = () => {
   return (
     <div className="flex flex-col lg:flex-row lg:gap-0 gap-4 items-center py-16 ">
         <motion.div
-    initial ={{opacity:0, y:-70}}
-    whileInView= {{opacity:1, y:0}}
+    initial ={{opacity:0, x:-30}}
+    whileInView= {{opacity:1, x:0}}
     transition={{ duration: 1.2 }}
        className="bg-[#0447B9] max-w-[100vh] h-[550px] sm:w-[800px]   lg:h-[600px] px-8 py-8 md:py-14 lg:py-12  mb-4">
         <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] lg:text-[50px] text-white text-center py-4">
@@ -32,8 +32,8 @@ const AboutMission = () => {
         </ul>
       </motion.div>
       <motion.div
-    initial ={{opacity:0, y:-70}}
-    whileInView= {{opacity:1, y:0}}
+    initial ={{opacity:0, x:30}}
+    whileInView= {{opacity:1, x:0}}
     transition={{ duration: 0.7 }}className="bg-[#ff9839] max-w-[100vh] h-[520px] sm:w-[800px] lg:h-[600px]  px-8 py-8 md:py-14 lg:py-12 mb-4">
         <h1 className="font-[poppins] font-base text-[25px] sm:text-[40px] md:text-[50px] text-white text-center py-4">
           Our Vision

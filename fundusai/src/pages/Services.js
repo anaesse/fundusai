@@ -11,7 +11,7 @@ const Services = () => {
     <section id="service" className="min-h-screen">
       <div className="md:px-20  px-10 py-8">
         <h1
-          className="font-[poppins] text-[#0447b9] text-[40px] font-light text-center pt-4
+          className="font-[poppins] text-[#0447b9] text-[32px] md:text-[40px] font-light text-center pt-4
           pb-8"
         >
           How it Works

@@ -10,6 +10,9 @@ function Home() {
   return (
     <section id="home" className="min-h-screen" >
       <motion.div
+      initial ={{opacity:0, y:-50}}
+      whileInView= {{opacity:1, y:0}}
+      transition={{ duration: 1.5}}
       className="md:px-20 px-10 pt-36 pb-24  w-full md:flex "
       >
     
@@ -61,9 +64,13 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full md:basis-2/5  ">
+        <motion.div
+        initial ={{opacity:0, x:10}}
+        whileInView= {{opacity:1, x:0}}
+        transition={{ duration: 1.5}}
+         className="w-full md:basis-2/5  ">
           <img src={hero} alt="logo" className="w-full pt-10 " />
-        </div>
+        </motion.div>
       </motion.div>
       <Hero />
     </section>
