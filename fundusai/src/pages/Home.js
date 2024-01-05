@@ -10,9 +10,6 @@ function Home() {
   return (
     <section id="home" className="min-h-screen" >
       <motion.div
-      // initial ={{opacity:0, y:-100}}
-      // whileInView= {{opacity:1, y:0}}
-      // transition={{ duration: 1.2 }} 
       className="md:px-20 px-10 pt-36 pb-24  w-full md:flex "
       >
     

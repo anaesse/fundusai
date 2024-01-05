@@ -4,7 +4,6 @@ import AboutMission from "../components/AboutMission";
 import play from "../images/play.svg";
 
 
-// import HowItWorks from '../images/how-it-works.jpg'
 const About = () => {
   const AboutCard = AboutUsData.map((data) => {
     return <AboutPageData key={data.id} {...data} />;

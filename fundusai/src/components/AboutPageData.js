@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 const AboutPageData = (props) => {
   return (
     <motion.div
-    initial ={{opacity:0, x:-50}}
-    whileInView= {{opacity:1, x:0}}
-    transition={{ duration: 1.5, delay:0.4 }}
+    initial ={{opacity:0, y:-50}}
+    whileInView= {{opacity:1, y:0}}
+    transition={{ duration: 1.5}}
 
      className="flex flex-col md:flex-row gap-6  py-10">
       <img
@@ -28,25 +28,6 @@ const AboutPageData = (props) => {
         <p className="max-w-[600px] text-[12px] font-light font-[poppins] py-3">
           {props.descriptionThree}
         </p>
-        {/* <div className="md:flex items-center gap-2  text-[12px] pt-2">
-          <a href="/" className="flex items-center gap-1">
-            <ion-icon name="mail" className="bg-black w-2 h-2 p-3"></ion-icon>
-            <span>{props.email}</span>
-          </a>
-          <a href="/" className="flex items-center gap-1">
-            <ion-icon name="logo-twitter"></ion-icon>
-            <span>{props.twitter}</span>
-          </a>
-          <a href="/" className="flex items-center gap-1">
-            <ion-icon name="logo-instagram"></ion-icon>
-            <span>{props.instagram}</span>
-          </a>
-          <a href="/" className="flex items-center gap-1">
-            {" "}
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <span>{props.linkedIn}</span>
-          </a>
-        </div> */}
       </div>
     </motion.div>
   );

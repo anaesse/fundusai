@@ -43,18 +43,6 @@ const Footer = () => {
                     <li>
                         <a href="/services" className="hover:underline text-[12px]">How It Works</a>
                     </li>
-                    {/* <li>
-                        <a href="/" className="hover:underline">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Case studies</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Reviews</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Updates</a>
-                    </li> */}
                 </ul>
             </div>
             <div>
@@ -66,37 +54,9 @@ const Footer = () => {
                     <li>
                         <a href="/contact" className="hover:underline pt-2 text-[12px] ">Contact us</a>
                     </li>
-                    {/* <li>
-                        <a href="/" className="hover:underline">Careers</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Culture</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Blog</a>
-                    </li> */}
                 </ul>
             </div>
-            {/* <div>
-                <h2 className="mb-6 text-sm font-semibold text-[#0447b9] ">Support</h2>
-                <ul className="text-white">
-                    <li>
-                        <a href="/" className="hover:underline">Getting started</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Help center</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Server status</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Report a bug</a>
-                    </li>
-                    <li>
-                        <a href="/" className="hover:underline">Chat support</a>
-                    </li>
-                </ul>
-            </div> */}
+       
             <div>
                 <h2 className="mb-6 text-sm font-semibold text-[#0447b9] ">Contacts us</h2>
                 <ul className="text-white">

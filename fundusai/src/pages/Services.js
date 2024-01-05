@@ -2,7 +2,6 @@ import ServiceData from "../components/ServiceData";
 import worksData from "../components/worksData";
 import Review from "./Review";
 
-// import HowItWorks from '../images/how-it-works.jpg'
 const Services = () => {
   const serviceCard = worksData.map((data) => {
     return <ServiceData key={data.id} {...data} />;
