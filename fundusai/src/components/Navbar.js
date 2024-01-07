@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <Link to='/' spy={true} smooth={true} offset={50}duration={500} className='logo'>
+                <Link to='home' spy={true} smooth={true} offset={50}duration={500} className='logo'>
                     <img src={logo} alt='logo' />
                 </Link>
                 <div className='hamburger' onClick={handleClick}>

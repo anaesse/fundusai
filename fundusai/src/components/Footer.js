@@ -3,17 +3,17 @@ import { IoCallOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-
+import { Link } from "react-scroll";
 const Footer = () => {
     return (    
         <footer className="p-10 bg-black mt-40 sm:p-20 ">
     <div className="lg:flex gap-24 lg:gap-32">
         <div className="mb-6 md:mb-2">
                 <div>
-            <a href="/">
-                <p className="self-center text-2xl font-semibold whitespace-nowrap text-[#0447b9]">Fundus<span className="text-[#ff9839]">AI</span></p>
-                <p className="text-white max-w-[200px] py-2">Join Us Today, Together We Can End Blindness in Diabetic Patients.</p>
-            </a>
+                    <Link to="home">
+                            <p className="self-center text-2xl font-semibold whitespace-nowrap text-[#0447b9]">Fundus<span className="text-[#ff9839]">AI</span></p>
+                            <p className="text-white max-w-[200px] py-2">Join Us Today, Together We Can End Blindness in Diabetic Patients.</p>
+                    </Link>
             <div className="flex mt-4 pt-2 space-x-6  sm:mt-0">
             <a href="https://www.facebook.com/profile.php?id=100086031632961&mibextid=ZbWKwL" className="text-[#0447b9] hover:text-gray-900 dark:hover:text-white">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
